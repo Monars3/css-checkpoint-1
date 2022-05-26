@@ -139,32 +139,20 @@ hr {
     border: 2px solid black;
     box-sizing: border-box;
 }
-.blogpage{
-    width: 1250px;
-    margin: 20px auto;
-}
-.blogpage img {
+.para {
     width: 400px;
-    height: 240px;
-    float: left;
-    margin: 0 25px;
+    padding: 10px;
 }
-.blog-para {
-    border: 1px solid #fff;
-    width: 600px;
-    margin: 0 auto;
-}
-.blogpage h3 {
+.para h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 25px;
-    
 }
-.blogpage p {
-    font-size: 17px;
-    margin-bottom: 25px;
+
+
+.blogpage {
+    display: flex;
 }
-.blogpage a {
+.para a {
     font-size: 20px;
     text-decoration: none;
     color: #fff;
@@ -173,17 +161,37 @@ hr {
     border-radius: 20px;
     padding: 6px 17px;
 }
-.blogpage2 {
-    width: 850px;
-    display: flex;
-    margin: 0 auto;
-}
-.blogpage2 img {
+img {
     width: 400px;
-    height: 240px;
-    margin: 50px 10px;
-    margin-left: 20px;
-    /* text-align: center; */
+    margin: 10px 10px;
+}
+.next-blogpage {
+    display: flex;
 }
 
+.wholebody{
+    width: 900px;
+    margin: 0 auto;
+}
+.last-para {
+    display: flex;
+}
+.last-para h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.containertwo {
+    width: 400px;
+    margin: 10px;
+}
+.containerthree {
+    width: 400px;
+    padding: 10px;
+}
+p {
+    margin: 20px 0;
+}
+.last-para a {
+    color: #07e53b;
+}
 
